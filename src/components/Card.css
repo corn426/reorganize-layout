@@ -1,0 +1,83 @@
+/* 여기에 주어진 요구 사항을 충족 시키기 위한 코드를 작성 및 수정해 주세요. */
+.card--container {
+  background: #ddd5d0;
+  width: 14em;
+  height: 14em;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1em;
+  margin: 15px 20px;
+}
+
+.card--container:hover {
+  cursor: default;
+}
+
+.card--container > .header {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0em 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.card--content {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card--content > .title {
+  font-weight: 700;
+  margin-top: 0em;
+  color: #5a6263;
+  font-size: 1.4em;
+  line-height: 1.15em;
+  text-align: center;
+}
+
+.card--container > .footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0em 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.card--tag {
+  font-family: "Open Sans", sans-serif;
+  margin: 1em 0em;
+  color: rgba(139, 132, 137, 0.8);
+  font-size: 0.9em;
+  line-height: 1.15em;
+}
+
+.card--tag span {
+  margin-right: 5px;
+}
+
+.bookmark {
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.bookmark > i {
+  background: transparent;
+  color: #fff;
+}

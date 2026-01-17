@@ -1,0 +1,26 @@
+/* 본 파일은 절대로 수정하지 않습니다. */
+.section {
+  margin: 30px 0px;
+}
+
+.__order {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 30px 40px;
+}
+
+select {
+  padding: 0.2em 0.8em;
+}
+
+ol {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: space-between;
+  place-items: center;
+  column-gap: 0px;
+  row-gap: 20px;
+  max-width: 1000px;
+}
